@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("typo/Cinzel/Cinzel-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src:url("typo/Roboto/Roboto-Light.ttf");
+
+}
+
+p {
+  text-align: left;
+  width: 80em;
+  color: #222222;
+  font-family: "Cinzel-Regular";
+  font-weight: "bolder";
+}
+
+h1 {
+  text-align: center;
+  font-family: "Roboto-Light";
+}
+
+.blue {
+  color: #531DFF;
+}
+
+.p2 {
+  color:red;
+}
+
+body {
+  background-image: url("img/drapeau.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
